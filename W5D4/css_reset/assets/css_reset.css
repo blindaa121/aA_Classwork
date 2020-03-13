@@ -1,0 +1,7 @@
+html, head, title, meta, link, script, body, header, img, ul, il, nav,
+li, aside, h2, h1, section, figure, figcaption, a, p, ol, form, 
+label, input, option, select, textarea, footer {
+  margin: 0;
+  border: 0;
+  padding: 0;
+}

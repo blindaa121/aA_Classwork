@@ -10,6 +10,7 @@
 
 require_relative './sqlzoo.rb'
 
+
 def example_sum
   execute(<<-SQL)
     SELECT
@@ -98,5 +99,13 @@ end
 def populous_continents
   # List the continents that have a total population of at least 100 million.
   execute(<<-SQL)
+  SELECT
+  continents
+  FROM
+  countries
+  GROUP BY
+  continents
+  HAVING
+  SUM(population) <= 100000000
   SQL
 end

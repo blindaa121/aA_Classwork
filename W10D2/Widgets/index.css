@@ -1,0 +1,71 @@
+body {
+font-family: 'Bangers', cursive;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin: auto;
+    background-color: goldenrod;
+    border: 5px solid black;
+
+}
+
+.time {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    font-size: 25px;
+}
+
+
+.date {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    font-size: 25px;
+
+}
+
+.tabs {
+    display: flex;
+    margin: 0;
+}
+
+/* 50px
+34
+6px + 10px */
+
+span {
+    list-style: none;
+    font-size: 10px;
+    border: 3px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: chartreuse;
+    margin-bottom: -2px;
+    width: 36px;
+}
+
+span:hover {
+    color: red;
+}
+
+article {
+    display: flex;
+    width: 150px;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    background-color: chartreuse;
+    border: 3px solid black;
+}
+
+.tabsWrapper {
+    margin-left: 100px;
+}
+
+ul {
+    padding: 0px
+}
